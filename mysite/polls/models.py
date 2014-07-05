@@ -16,6 +16,7 @@ LANGUAGE_CHOICES = (
 SEX_CHOICES = (
 	('M', 'Male'),
 	('F', 'Female'),
+	('N', 'Not Specified')
 )
 
 class Hearing_Center(models.Model):
